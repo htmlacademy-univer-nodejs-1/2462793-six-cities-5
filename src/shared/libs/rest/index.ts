@@ -12,3 +12,7 @@ export * from './types/request-params.type.js';
 export * from './middleware/middleware.interface.js';
 export * from './middleware/validate-objectid.middleware.js';
 export * from './types/existing-document.interface.js';
+export * from './types/validation-error-field.type.js';
+export * from './exception-filter/http-error.exception-filter.js';
+export * from './exception-filter/validation.exception-filter.js';
+export * from './transform/path-transformer.js';
